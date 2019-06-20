@@ -1,0 +1,88 @@
+/* .chartdiv {
+    width: 100%;
+    height: 400px;
+  } */
+
+  
+
+   .div1{
+    margin-top: 20px;
+  }
+ .div2{
+   margin-top: 20px;
+ }
+
+ /*
+ .Pichartdiv{
+   position: relative;
+   padding: 50px;
+ }
+
+ .linechartdiv{
+  position: relative;
+  padding: 50px;
+ }
+
+ .Barchartdiv{
+  position: relative;
+  padding: 50px;
+ }
+
+ .Serieschartdiv{
+  position: relative;
+  padding: 50px;
+ } */
+
+
+ .chart{
+   /* border: solid; */
+   box-shadow: -5px 4px 5px 5px rgba(64,54,64,1);
+ }
+
+ .Pichartdiv{
+  position: relative;
+  height: 300px;
+}
+
+.linechartdiv{
+  position: relative;
+  height: 300px;
+ }
+
+ .Barchartdiv{
+  position: relative;
+  height: 300px;
+ }
+
+ .Serieschartdiv{
+  position: relative;
+  height: 300px;
+ }
+
+.btnchart{
+/* border: solid; */
+height: 40px;
+display: flex;
+}
+
+.btnswap{
+  align-items: stretch;
+  width: inherit;
+  margin-bottom: 5px;
+  background-color:#ededed;
+  border-radius:19px;
+  cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+.btnswap:hover{
+  background-color:#bab1ba;
+}
+
+.btnswap:active{
+  position: relative;
+  top:5px;
+}
+
